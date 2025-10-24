@@ -6,7 +6,7 @@ GestureDetector iconos(String image, String link) {
   return GestureDetector(
     onTap: () =>
         launchUrlString(mode: LaunchMode.externalApplication, "https://$link"),
-    child: Container(child: Image.asset("../../assets/$image.png")),
+    child: Container(child: Image.asset("assets/$image.png")),
   );
 }
 
@@ -36,7 +36,7 @@ class DesktopFooter extends StatelessWidget {
       child: Center(
         child: Column(
           children: [
-            Image.asset("../../assets/Icono.png"),
+            Image.asset("assets/Icono.png"),
             SizedBox(height: 24),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -67,7 +67,7 @@ class MobileFooter extends StatelessWidget {
       child: Center(
         child: Column(
           children: [
-            Image.asset("../../assets/Icono.png"),
+            Image.asset("assets/Icono.png"),
             SizedBox(height: 24),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,

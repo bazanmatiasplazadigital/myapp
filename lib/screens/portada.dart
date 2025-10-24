@@ -50,7 +50,7 @@ class DesktopPortadaSeccion extends StatelessWidget {
               ],
             ),
           ),
-          Expanded(child: Image.asset("../../assets/fondo_1.png")),
+          Expanded(child: Image.asset("assets/fondo_1.png")),
         ],
       ),
     );
@@ -70,7 +70,7 @@ class MobilePortadaSeccion extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.asset("../../assets/fondo_de_la_imagen_movil.png"),
+          Image.asset("assets/fondo_de_la_imagen_movil.png"),
           SizedBox(height: 50),
           Text(
             "Me gusta crear\ncosas divertidas e\ninteractivas con código.",

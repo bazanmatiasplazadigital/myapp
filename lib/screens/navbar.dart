@@ -33,7 +33,7 @@ class DesktopNavbar extends StatelessWidget {
               SizedBox(height: 20),
               Row(
                 children: [
-                  Image.asset('../../assets/Icono.png'),
+                  Image.asset('assets/Icono.png'),
                   Expanded(child: Container()),
                   SizedBox(width: 30),
                   Text(
