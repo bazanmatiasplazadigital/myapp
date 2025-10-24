@@ -65,6 +65,7 @@ class DesktopNavbar extends StatelessWidget {
     );
   }
 }
+/*Actualizar*/
 
 class MobileNavbar extends StatelessWidget {
   const MobileNavbar({super.key});
