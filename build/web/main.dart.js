@@ -19271,7 +19271,7 @@ j=i}s.K6(new A.uz(p,B.CN,o,j,h))
 s.zv()},
 AY:function AY(a){this.a=a},
 xo(a,b){var s=null
-return A.P4(s,A.f4(A.qI("../../assets/"+a+".png"),s,s,s,s,s,s),B.aq,!1,s,s,s,s,s,s,s,s,s,s,s,s,new A.a4C(b),s,s,s)},
+return A.P4(s,A.f4(A.qI("assets/"+a+".png"),s,s,s,s,s,s),B.aq,!1,s,s,s,s,s,s,s,s,s,s,s,s,new A.a4C(b),s,s,s)},
 a4C:function a4C(a){this.a=a},
 zR:function zR(a){this.a=a},
 zb:function zb(a){this.a=a},
@@ -57800,10 +57800,10 @@ w_(a){return B.xL},
 w0(a){return B.CF}}
 A.zb.prototype={
 X(a){var s=null,r=A.al(4278241535),q=t.E
-return A.f4(A.a5B(A.pC(A.c([A.qI("../../assets/Icono.png"),A.cs(s,24,s),A.Ck(A.c([A.xo("dribbble","www.dribbble.com"),A.cs(s,s,10),A.xo("icono_linkedin","www.linkedin.com"),A.cs(s,s,10),A.xo("github","www.github.com")],q),B.h2)],q),B.aE),s,s),r,s,200,s,s,1/0)}}
+return A.f4(A.a5B(A.pC(A.c([A.qI("assets/Icono.png"),A.cs(s,24,s),A.Ck(A.c([A.xo("dribbble","www.dribbble.com"),A.cs(s,s,10),A.xo("icono_linkedin","www.linkedin.com"),A.cs(s,s,10),A.xo("github","www.github.com")],q),B.h2)],q),B.aE),s,s),r,s,200,s,s,1/0)}}
 A.AR.prototype={
 X(a){var s=null,r=A.al(4278241535),q=t.E
-return A.f4(A.a5B(A.pC(A.c([A.qI("../../assets/Icono.png"),A.cs(s,24,s),A.Ck(A.c([A.xo("dribbble","www.dribbble.com"),A.cs(s,s,10),A.xo("icono_linkedin","www.linkedin.com"),A.cs(s,s,10),A.xo("github","www.github.com")],q),B.h2)],q),B.aE),s,s),r,s,200,s,s,1/0)}}
+return A.f4(A.a5B(A.pC(A.c([A.qI("assets/Icono.png"),A.cs(s,24,s),A.Ck(A.c([A.xo("dribbble","www.dribbble.com"),A.cs(s,s,10),A.xo("icono_linkedin","www.linkedin.com"),A.cs(s,s,10),A.xo("github","www.github.com")],q),B.h2)],q),B.aE),s,s),r,s,200,s,s,1/0)}}
 A.qE.prototype={
 aq(){return new A.FP()}}
 A.FP.prototype={
@@ -57814,7 +57814,7 @@ w_(a){return B.xM},
 w0(a){return B.CG}}
 A.zc.prototype={
 X(a){var s=4278241535,r=null,q=A.al(s),p=A.al(s),o=t.E
-return A.f4(new A.kc(new A.av(0,1140,0,1/0),A.f4(A.pC(A.c([A.cs(r,20,r),A.Ck(A.c([A.qI("../../assets/Icono.png"),A.a5U(A.f4(r,r,r,r,r,r,r)),A.cs(r,r,30),A.fo("Inicio",A.d7(r,r,B.i,r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.cs(r,r,30),A.fo("Proyectos",A.d7(r,r,B.i,r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.cs(r,r,30),A.fo("Sobre mi",A.d7(r,r,B.i,r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.cs(r,r,30),A.fo("Contacto",A.d7(r,r,B.i,r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.cs(r,r,30)],o),B.aZ)],o),B.aE),p,r,r,r,r,r),r),q,r,100,r,r,1/0)}}
+return A.f4(new A.kc(new A.av(0,1140,0,1/0),A.f4(A.pC(A.c([A.cs(r,20,r),A.Ck(A.c([A.qI("assets/Icono.png"),A.a5U(A.f4(r,r,r,r,r,r,r)),A.cs(r,r,30),A.fo("Inicio",A.d7(r,r,B.i,r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.cs(r,r,30),A.fo("Proyectos",A.d7(r,r,B.i,r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.cs(r,r,30),A.fo("Sobre mi",A.d7(r,r,B.i,r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.cs(r,r,30),A.fo("Contacto",A.d7(r,r,B.i,r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)),A.cs(r,r,30)],o),B.aZ)],o),B.aE),p,r,r,r,r,r),r),q,r,100,r,r,1/0)}}
 A.AS.prototype={
 X(a){var s=null,r=A.al(4278241535)
 return A.f4(A.Ck(A.c([A.cs(A.P4(s,A.aiy(B.yA,B.i,s),B.aq,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s),80,80),A.fo("Inicio",A.d7(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.cs(s,s,7),A.fo("Proyecto",A.d7(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.cs(s,s,7),A.fo("Sobre mi",A.d7(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.cs(s,s,7),A.fo("Contacto",A.d7(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s))],t.E),B.aZ),r,s,100,s,s,1/0)}}
@@ -57823,10 +57823,10 @@ w_(a){return B.xN},
 w0(a){return B.CH}}
 A.zd.prototype={
 X(a){var s=null,r=A.al(4278241535),q=t.E
-return A.f4(A.Ck(A.c([A.a5U(A.pC(A.c([A.cs(s,200,s),A.fo("Me gusta crear\ncosas divertidas e interactivas\ncon c\xf3digo.",A.d7(s,s,B.l,s,s,s,s,s,s,s,s,48,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.cs(s,16,s),A.f4(A.fo("Descargar CV",A.d7(s,s,B.l,s,s,s,s,s,s,s,s,25,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),B.i,s,70,s,new A.bR(16,16,16,16),200)],q),B.aU)),A.a5U(A.qI("../../assets/fondo_1.png"))],q),B.aZ),r,s,750,s,s,1/0)}}
+return A.f4(A.Ck(A.c([A.a5U(A.pC(A.c([A.cs(s,200,s),A.fo("Me gusta crear\ncosas divertidas e interactivas\ncon c\xf3digo.",A.d7(s,s,B.l,s,s,s,s,s,s,s,s,48,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.cs(s,16,s),A.f4(A.fo("Descargar CV",A.d7(s,s,B.l,s,s,s,s,s,s,s,s,25,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),B.i,s,70,s,new A.bR(16,16,16,16),200)],q),B.aU)),A.a5U(A.qI("assets/fondo_1.png"))],q),B.aZ),r,s,750,s,s,1/0)}}
 A.AT.prototype={
 X(a){var s=null,r=A.al(4278241535)
-return A.f4(A.pC(A.c([A.qI("../../assets/fondo_de_la_imagen_movil.png"),A.cs(s,50,s),A.fo("Me gusta crear\ncosas divertidas e\ninteractivas con c\xf3digo.",A.d7(s,s,B.l,s,s,s,s,s,s,s,s,24,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.cs(s,16,s),A.f4(A.fo("Descargar CV",A.d7(s,s,B.l,s,s,s,s,s,s,s,s,14,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),B.i,s,70,s,new A.bR(16,16,16,16),200)],t.E),B.aU),r,s,600,s,s,1/0)}}
+return A.f4(A.pC(A.c([A.qI("assets/fondo_de_la_imagen_movil.png"),A.cs(s,50,s),A.fo("Me gusta crear\ncosas divertidas e\ninteractivas con c\xf3digo.",A.d7(s,s,B.l,s,s,s,s,s,s,s,s,24,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.cs(s,16,s),A.f4(A.fo("Descargar CV",A.d7(s,s,B.l,s,s,s,s,s,s,s,s,14,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),B.i,s,70,s,new A.bR(16,16,16,16),200)],t.E),B.aU),r,s,600,s,s,1/0)}}
 A.UM.prototype={
 NV(a){$.a59().m(0,this,a)}}
 A.nD.prototype={
