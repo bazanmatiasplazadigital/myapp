@@ -41,10 +41,12 @@ class DesktopPortadaSeccion extends StatelessWidget {
                   padding: EdgeInsets.all(16.0),
                   width: 200,
                   height: 70,
-                  color: Colors.white,
-                  child: Text(
-                    "Descargar CV",
-                    style: TextStyle(color: Colors.black, fontSize: 25),
+                  color: Colors.black,
+                  child: Center(
+                    child: Text(
+                      "Descargar CV",
+                      style: TextStyle(color: Colors.white, fontSize: 18),
+                    ),
                   ),
                 ),
               ],
@@ -81,10 +83,16 @@ class MobilePortadaSeccion extends StatelessWidget {
             padding: EdgeInsets.all(16.0),
             width: 200,
             height: 70,
-            color: Colors.white,
-            child: Text(
-              "Descargar CV",
-              style: TextStyle(color: Colors.black, fontSize: 14),
+            color: Colors.black,
+            child: Center(
+              child: Text(
+                "Descargar CV",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
           ),
         ],

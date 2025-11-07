@@ -3,6 +3,8 @@ import 'package:myapp/globals/whatsapp_button.dart';
 import 'package:myapp/screens/navbar.dart';
 import 'package:myapp/screens/portada.dart';
 import 'package:myapp/screens/footer.dart';
+import 'package:myapp/screens/sobremi.dart';
+import 'package:myapp/screens/tecnologias.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
@@ -29,6 +31,9 @@ class _HomepageState extends State<Homepage> {
                 PortadaSeccion(),
 
                 //Banner
+                Sobremi(),
+
+                Tecnologias(),
 
                 //Footer
                 Footer(),

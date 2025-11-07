@@ -67,6 +67,13 @@ flutter:
     - assets/icono_linkedin.png
     - assets/logo.jpg
     - assets/wsp-logo.webp
+    - assets/personaje_con_lentes_3d.png
+    - assets/personaje_sin_fondo.png
+    - assets/personaje_sin_fondo_movil.png
+    - assets/nodejs1_1.png
+    - assets/react1_1.png
+    - assets/css1_1.png
+    - assets/figma1_1.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

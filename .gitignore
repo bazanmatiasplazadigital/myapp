@@ -43,3 +43,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/build/app
+/build/flutter_assets
+/build/reports
+/build/path_provider_android
+/build/url_launcher_android
+/build/.cxx

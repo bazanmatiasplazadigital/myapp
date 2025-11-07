@@ -32,7 +32,7 @@ class DesktopFooter extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: 200,
-      color: Color(0xFF00C8FF),
+      color: Colors.white,
       child: Center(
         child: Column(
           children: [
