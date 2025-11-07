@@ -62,7 +62,7 @@ class MobileSobremi extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: 850,
-      color: Color(0xFF00C8FF),
+      color: Colors.white,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

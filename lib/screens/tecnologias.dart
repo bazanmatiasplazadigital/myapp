@@ -54,6 +54,31 @@ class MobileTecnologias extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Placeholder();
+    return Container(
+      width: double.infinity,
+      height: 600,
+      color: Colors.white,
+      child: Column(
+        children: [
+          Text(
+            "Tecnologías que utilizo del ecosistema web",
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
+          SizedBox(height: 10),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.asset("assets/nodejs1_1.png"),
+              SizedBox(width: 20),
+              Image.asset("assets/react1_1.png"),
+              SizedBox(width: 20),
+              Image.asset("assets/css1_1.png"),
+              SizedBox(width: 20),
+              Image.asset("assets/figma1_1.png"),
+            ],
+          ),
+        ],
+      ),
+    );
   }
 }
