@@ -29,7 +29,7 @@ class _WhatsAppButtonState extends State<WhatsAppButton> {
           height: 64, // Asegura un tamaño adecuado
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('../../assets/wsp-logo.webp'),
+              image: AssetImage('assets/wsp-logo.webp'),
               fit: BoxFit.cover,
             ),
             shape: BoxShape.circle, // Le da una forma circular al botón
