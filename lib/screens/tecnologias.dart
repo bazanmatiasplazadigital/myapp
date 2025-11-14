@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/globals/info_web.dart';
 import 'package:myapp/globals/responsive_widget.dart';
 
 class Tecnologias extends ResponsiveWidget {
@@ -34,13 +35,13 @@ class DesktopTecnologias extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset("assets/nodejs1_1.png"),
+              Image.asset(imagenNodejsDesktop),
               SizedBox(width: 20),
-              Image.asset("assets/react1_1.png"),
+              Image.asset(imagenReactDesktop),
               SizedBox(width: 20),
-              Image.asset("assets/css1_1.png"),
+              Image.asset(imagenCssDesktop),
               SizedBox(width: 20),
-              Image.asset("assets/figma1_1.png"),
+              Image.asset(imagenFigmaDesktop),
             ],
           ),
         ],
@@ -68,13 +69,13 @@ class MobileTecnologias extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset("assets/nodejs1_1.png"),
+              Image.asset(imagenNodejsDesktop),
               SizedBox(width: 20),
-              Image.asset("assets/react1_1.png"),
+              Image.asset(imagenReactDesktop),
               SizedBox(width: 20),
-              Image.asset("assets/css1_1.png"),
+              Image.asset(imagenCssDesktop),
               SizedBox(width: 20),
-              Image.asset("assets/figma1_1.png"),
+              Image.asset(imagenFigmaDesktop),
             ],
           ),
         ],

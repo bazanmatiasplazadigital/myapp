@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/globals/info_web.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class WhatsAppButton extends StatefulWidget {
@@ -10,8 +11,8 @@ class WhatsAppButton extends StatefulWidget {
 
 class _WhatsAppButtonState extends State<WhatsAppButton> {
   void _launchWhatsApp() async {
-    if (await canLaunchUrlString("https://wa.me/+5491168453722")) {
-      await launchUrlString("https://wa.me/+5491168453722");
+    if (await canLaunchUrlString(linkWhatsApp)) {
+      await launchUrlString(linkWhatsApp);
     } else {
       // Maneja el caso en que no se puede lanzar la URL
       print("No se pudo abrir WhatsApp");
@@ -29,7 +30,7 @@ class _WhatsAppButtonState extends State<WhatsAppButton> {
           height: 64, // Asegura un tamaño adecuado
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/wsp-logo.webp'),
+              image: AssetImage(imagenWhatsappDesktop),
               fit: BoxFit.cover,
             ),
             shape: BoxShape.circle, // Le da una forma circular al botón

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/globals/info_web.dart';
 import 'package:myapp/globals/responsive_widget.dart';
 
 class Sobremi extends ResponsiveWidget {
@@ -66,7 +67,7 @@ class MobileSobremi extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.asset("assets/personaje_sin_fondo_movil.png"),
+          Image.asset(imagenSobremiDesktop),
           SizedBox(height: 50),
           Text(
             "Sobre mi",

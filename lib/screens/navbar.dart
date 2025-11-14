@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/globals/info_web.dart';
 import 'package:myapp/globals/responsive_widget.dart';
 
 class Navbar extends ResponsiveWidget {
@@ -34,7 +35,7 @@ class DesktopNavbar extends StatelessWidget {
               /* Nueva version*/
               Row(
                 children: [
-                  Image.asset('assets/Icono.png'),
+                  Image.asset(imagenIconoDesktop),
                   Expanded(child: Container()),
                   SizedBox(width: 30),
                   Text(

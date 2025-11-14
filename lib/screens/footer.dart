@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/globals/info_web.dart';
 import 'package:myapp/globals/responsive_widget.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
@@ -41,11 +42,11 @@ class DesktopFooter extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                iconos("dribbble", "www.dribbble.com"),
+                iconos("dribbble", linkDribbble),
                 SizedBox(width: 10),
-                iconos("icono_linkedin", "www.linkedin.com"),
+                iconos("icono_linkedin", linkLinkedin),
                 SizedBox(width: 10),
-                iconos("github", "www.github.com"),
+                iconos("github", linkGithub),
               ],
             ),
           ],
@@ -72,11 +73,11 @@ class MobileFooter extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                iconos("dribbble", "www.dribbble.com"),
+                iconos("dribbble", linkDribbble),
                 SizedBox(width: 10),
-                iconos("icono_linkedin", "www.linkedin.com"),
+                iconos("icono_linkedin", linkLinkedin),
                 SizedBox(width: 10),
-                iconos("github", "www.github.com"),
+                iconos("github", linkGithub),
               ],
             ),
           ],

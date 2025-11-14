@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/globals/info_web.dart';
 import 'package:myapp/globals/responsive_widget.dart';
 
 class PortadaSeccion extends ResponsiveWidget {
@@ -52,7 +53,7 @@ class DesktopPortadaSeccion extends StatelessWidget {
               ],
             ),
           ),
-          Expanded(child: Image.asset("assets/fondo_1.png")),
+          Expanded(child: Image.asset(imagenPortadaDesktop)),
         ],
       ),
     );
@@ -72,7 +73,7 @@ class MobilePortadaSeccion extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.asset("assets/fondo_de_la_imagen_movil.png"),
+          Image.asset(imagenPortadaMobile),
           SizedBox(height: 50),
           Text(
             "Me gusta crear\ncosas divertidas e\ninteractivas con código.",
