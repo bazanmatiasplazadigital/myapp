@@ -3,6 +3,10 @@ const linkDribbble = "www.dribbble.com";
 const linkLinkedin = "www.linkedin.com";
 const linkGithub = "www.github.com";
 const linkWhatsApp = "https://wa.me/+5491168453722";
+const gmailUrlApp =
+    'https://mail.google.com/mail/?view=cm&fs=1&to=$emailAddressApp';
+const gmailUrlMobileApp = 'mailto:$emailAddressApp';
+const emailAddressApp = 'info.gstmarketingdigital@gmail.com';
 
 //IMAGENES
 const imagenPortadaDesktop = "assets/fondo_1.png";

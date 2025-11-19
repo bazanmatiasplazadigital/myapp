@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/globals/whatsapp_button.dart';
+import 'package:myapp/screens/email.dart';
 import 'package:myapp/screens/navbar.dart';
 import 'package:myapp/screens/portada.dart';
 import 'package:myapp/screens/footer.dart';
@@ -34,6 +35,8 @@ class _HomepageState extends State<Homepage> {
                 Sobremi(),
 
                 Tecnologias(),
+
+                EmailBanner(),
 
                 //Footer
                 Footer(),
