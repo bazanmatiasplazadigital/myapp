@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           Theme.of(context).textTheme,
         ).apply(bodyColor: Colors.black),
       ),
-      home: const Homepage(),
+      home: const HomePage(),
     );
   }
 }

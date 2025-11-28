@@ -1,99 +1,120 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/globals/info_web.dart';
 import 'package:myapp/globals/responsive_widget.dart';
 
-class Navbar extends ResponsiveWidget {
-  const Navbar({super.key});
+class NavBar extends ResponsiveWidget {
+  // Recibimos todas las funciones necesarias
+  final VoidCallback onHomeTap;
+  final VoidCallback onAboutTap;
+  final VoidCallback onContactTap;
+  final VoidCallback onMenuTap; // Nueva función para el botón de menú móvil
+
+  const NavBar({
+    super.key,
+    required this.onHomeTap,
+    required this.onAboutTap,
+    required this.onContactTap,
+    required this.onMenuTap,
+  });
 
   @override
   Widget buildDesktop(BuildContext context) {
-    return const DesktopNavbar();
+    return DesktopNavBar(
+      onHomeTap: onHomeTap,
+      onAboutTap: onAboutTap,
+      onContactTap: onContactTap,
+    );
   }
 
   @override
   Widget buildMobile(BuildContext context) {
-    return const MobileNavbar();
+    return MobileNavBar(onMenuTap: onMenuTap);
   }
 }
 
-class DesktopNavbar extends StatelessWidget {
-  const DesktopNavbar({super.key});
+// --- VERSIÓN DESKTOP (Botones visibles) ---
+class DesktopNavBar extends StatelessWidget {
+  final VoidCallback onHomeTap;
+  final VoidCallback onAboutTap;
+  final VoidCallback onContactTap;
+
+  const DesktopNavBar({
+    super.key,
+    required this.onHomeTap,
+    required this.onAboutTap,
+    required this.onContactTap,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color(0xFF00C8FF),
+      height: 70,
       width: double.infinity,
-      height: 100,
-      child: ConstrainedBox(
-        constraints: BoxConstraints(maxWidth: 1140),
-        child: Container(
-          color: Color(0xFF00C8FF),
-          child: Column(
-            children: [
-              SizedBox(height: 20),
-              /* Nueva version*/
-              Row(
-                children: [
-                  Image.asset(imagenIconoDesktop),
-                  Expanded(child: Container()),
-                  SizedBox(width: 30),
-                  Text(
-                    "Inicio",
-                    style: TextStyle(color: Colors.white, fontSize: 14),
-                  ),
-                  SizedBox(width: 30),
-                  Text(
-                    "Proyectos",
-                    style: TextStyle(color: Colors.white, fontSize: 14),
-                  ),
-                  SizedBox(width: 30),
-                  Text(
-                    "Sobre mi",
-                    style: TextStyle(color: Colors.white, fontSize: 14),
-                  ),
-                  SizedBox(width: 30),
-                  Text(
-                    "Contacto",
-                    style: TextStyle(color: Colors.white, fontSize: 14),
-                  ),
-                  SizedBox(width: 30),
-                ],
-              ),
-            ],
+      color: Colors.transparent,
+      padding: const EdgeInsets.symmetric(horizontal: 20),
+      child: Row(
+        children: [
+          SizedBox(
+            width: 140,
+            height: 140,
+            child: Image.asset("assets/Icono.png"),
+          ), // Logo
+          Expanded(child: Container()),
+
+          TextButton(
+            onPressed: onHomeTap,
+            child: const Text("Inicio", style: TextStyle(color: Colors.black)),
           ),
-        ),
+          const SizedBox(width: 20),
+          TextButton(
+            onPressed: onAboutTap,
+            child: const Text(
+              "Sobre Nosotros",
+              style: TextStyle(color: Colors.black),
+            ),
+          ),
+          const SizedBox(width: 20),
+          TextButton(
+            onPressed: onContactTap,
+            child: const Text(
+              "Tecnologias",
+              style: TextStyle(color: Colors.black),
+            ),
+          ),
+          const SizedBox(width: 20),
+          TextButton(
+            onPressed: onContactTap,
+            child: const Text(
+              "Contacto",
+              style: TextStyle(color: Colors.black),
+            ),
+          ),
+        ],
       ),
     );
   }
 }
-/*Actualizar*/
 
-class MobileNavbar extends StatelessWidget {
-  const MobileNavbar({super.key});
-  //Barra de navegacion
+// --- VERSIÓN MOBILE (Solo el botón hamburguesa) ---
+class MobileNavBar extends StatelessWidget {
+  final VoidCallback onMenuTap; // El interruptor
+
+  const MobileNavBar({super.key, required this.onMenuTap});
+
   @override
   Widget build(BuildContext context) {
     return Container(
+      height: 50,
       width: double.infinity,
-      height: 100,
-      color: Color(0xFF00C8FF),
+      color: Colors.black,
+      padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          SizedBox(
-            width: 80,
-            height: 80,
-            child: GestureDetector(
-              child: Icon(Icons.menu, color: Colors.white),
-            ),
+          const Icon(Icons.flutter_dash, color: Colors.white), // Logo simple
+          IconButton(
+            icon: const Icon(Icons.menu, color: Colors.white),
+            onPressed: onMenuTap, // Al tocar, avisamos a la HomePage
           ),
-          Text("Inicio", style: TextStyle(color: Colors.white)),
-          SizedBox(width: 7),
-          Text("Proyecto", style: TextStyle(color: Colors.white)),
-          SizedBox(width: 7),
-          Text("Sobre mi", style: TextStyle(color: Colors.white)),
-          SizedBox(width: 7),
-          Text("Contacto", style: TextStyle(color: Colors.white)),
         ],
       ),
     );

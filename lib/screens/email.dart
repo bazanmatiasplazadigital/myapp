@@ -79,7 +79,7 @@ class EmailBannerMobile extends StatelessWidget {
               SizedBox(width: 30),
               Text(
                 'Contactanos por Correo',
-                style: TextStyle(color: Colors.white, fontSize: 30),
+                style: TextStyle(color: Colors.white, fontSize: 24),
               ),
               SizedBox(width: 25),
               Icon(Icons.email_outlined, color: MyColors.colorNegro, size: 30),
